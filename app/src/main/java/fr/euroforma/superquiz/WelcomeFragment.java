@@ -71,6 +71,7 @@ public class WelcomeFragment extends Fragment {
                 fragmentTransaction.replace(R.id.fragmentContainerView, quizFragment);
                 fragmentTransaction.commit();
 
+
             }
         });
     }
