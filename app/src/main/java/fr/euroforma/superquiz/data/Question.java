@@ -1,5 +1,7 @@
 package fr.euroforma.superquiz.data;
 
+import androidx.lifecycle.ViewTreeLifecycleOwner;
+
 import java.util.List;
 
 public class Question {
@@ -13,4 +15,19 @@ public class Question {
         this.choiceList = choiceList;
         this.answerIndex = answerIndex;
     }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public List<String> getChoiceList() {
+        return choiceList;
+    }
+
+    public Integer getAnswerIndex() {
+    return answerIndex;
+    }
+
+
+
 }

@@ -1,4 +1,4 @@
-package fr.euroforma.superquiz;
+package fr.euroforma.superquiz.ui.welcome;
 
 import android.os.Bundle;
 
@@ -15,7 +15,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import fr.euroforma.superquiz.R;
 import fr.euroforma.superquiz.databinding.FragmentWelcomeBinding;
+import fr.euroforma.superquiz.ui.quiz.QuizFragment;
 
 public class WelcomeFragment extends Fragment {
     FragmentWelcomeBinding binding;

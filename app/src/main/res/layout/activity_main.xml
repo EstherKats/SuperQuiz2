@@ -9,7 +9,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragmentContainerView"
-            android:name="fr.euroforma.superquiz.WelcomeFragment"
+            android:name="fr.euroforma.superquiz.ui.welcome.WelcomeFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout_editor_absoluteX="191dp"
