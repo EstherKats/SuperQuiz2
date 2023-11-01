@@ -8,52 +8,52 @@ public class QuestionBank {
         public List<Question> getQuestions() {
             return Arrays.asList(
                     new Question(
-                            "Who is the creator of Android?",
+                            "How old am I?",
                             Arrays.asList(
-                                    "Andy Rubin",
-                                    "Steve Wozniak",
-                                    "Jake Wharton",
-                                    "Paul Smith"
+                                    "19",
+                                    "21",
+                                    "18",
+                                    "25"
                             ),
                             0
                     ),
                     new Question(
-                            "When did the first man land on the moon?",
+                            "What's my date of birth?",
                             Arrays.asList(
-                                    "1958",
-                                    "1962",
-                                    "1967",
-                                    "1969"
+                                    "08/12/2008",
+                                    "29/08/2001",
+                                    "15/01/2005",
+                                    "04/03/2004"
                             ),
                             3
                     ),
                     new Question(
-                            "What is the house number of The Simpsons?",
+                            "Where was I born?",
                             Arrays.asList(
-                                    "42",
-                                    "101",
-                                    "666",
-                                    "742"
+                                    "Tel Aviv",
+                                    "Manchester",
+                                    "Paris",
+                                    "Newcastle"
                             ),
                             3
                     ),
                     new Question(
-                            "Who painteddid the Mona Lisa paint?",
+                            "How many siblings do I have?",
                             Arrays.asList(
-                                    "Michelangelo",
-                                    "Leonardo Da Vinci",
-                                    "Raphael",
-                                    "Caravaggio"
+                                    "5",
+                                    "9",
+                                    "10",
+                                    "7"
                             ),
                             1
                     ),
                     new Question(
-                            "What is the country top-level domain of Belgium?",
+                            "Which seminary did I go to?",
                             Arrays.asList(
-                                    ".bg",
-                                    ".bm",
-                                    ".bl",
-                                    ".be"
+                                    "Beth Elisheva",
+                                    "Manchester",
+                                    "Gateshead",
+                                    "Bnos Sarah"
                             ),
                             3
                     )
